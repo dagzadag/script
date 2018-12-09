@@ -27,6 +27,7 @@ function serachInArr () {
       //window.open(base64image,'_blank');
       if (img1 == captchaAnswer){
         document.querySelector("#visualCaptcha-img-0").click();
+        clickNext();
       }
     });
     html2canvas(document.querySelector("#visualCaptcha-img-1")).then(function(canvas) {
@@ -37,6 +38,7 @@ function serachInArr () {
       //window.open(base64image,'_blank');
       if (img2 == captchaAnswer){
         document.querySelector("#visualCaptcha-img-1").click();
+        clickNext();
       }
     });
     html2canvas(document.querySelector("#visualCaptcha-img-2")).then(function(canvas) {
@@ -47,6 +49,7 @@ function serachInArr () {
       //window.open(base64image,'_blank');
       if (img3 == captchaAnswer){
         document.querySelector("#visualCaptcha-img-2").click();
+        clickNext();
       }
     });
     html2canvas(document.querySelector("#visualCaptcha-img-3")).then(function(canvas) {
@@ -57,6 +60,7 @@ function serachInArr () {
       //window.open(base64image,'_blank');
       if (img4 == captchaAnswer){
         document.querySelector("#visualCaptcha-img-3").click();
+        clickNext();
       }
     });
     html2canvas(document.querySelector("#visualCaptcha-img-4")).then(function(canvas) {
@@ -67,6 +71,7 @@ function serachInArr () {
       //window.open(base64image,'_blank');
       if (img5 == captchaAnswer){
         document.querySelector("#visualCaptcha-img-4").click();
+        clickNext();
       }
     });
 
