@@ -118,8 +118,11 @@ function incorectRepo () {
 }
 
 function closeAndRefresh(){
+	var visual = document.querySelector(".visualCaptcha-selected")
+	if (!visual){
 	document.querySelector("#captcha").innerHTML += '<a onclick="closeMacros()" id="imacrosId"></a>';
 	document.querySelector("#imacrosId").click();
+	}
 }
 function iMacros() {
 	document.querySelector('body').focus();
@@ -179,6 +182,8 @@ function serachInArr () {
       if (img1 == captchaAnswer){
       	document.querySelector("#visualCaptcha-img-0").click();
       	clickNext();
+      }else{
+      	closeAndrefresh();
       }
   });
 		html2canvas(document.querySelector("#visualCaptcha-img-1")).then(function(canvas) {
@@ -190,6 +195,8 @@ function serachInArr () {
       if (img2 == captchaAnswer){
       	document.querySelector("#visualCaptcha-img-1").click();
       	clickNext();
+      }else{
+      	closeAndrefresh();
       }
   });
 		html2canvas(document.querySelector("#visualCaptcha-img-2")).then(function(canvas) {
@@ -201,6 +208,8 @@ function serachInArr () {
       if (img3 == captchaAnswer){
       	document.querySelector("#visualCaptcha-img-2").click();
       	clickNext();
+      }else{
+      	closeAndrefresh();
       }
   });
 		html2canvas(document.querySelector("#visualCaptcha-img-3")).then(function(canvas) {
@@ -212,6 +221,8 @@ function serachInArr () {
       if (img4 == captchaAnswer){
       	document.querySelector("#visualCaptcha-img-3").click();
       	clickNext();
+      }else{
+      	closeAndrefresh();
       }
   });
 		html2canvas(document.querySelector("#visualCaptcha-img-4")).then(function(canvas) {
@@ -223,6 +234,8 @@ function serachInArr () {
       if (img5 == captchaAnswer){
       	document.querySelector("#visualCaptcha-img-4").click();
       	clickNext();
+      }else{
+      	closeAndrefresh();
       }
   });
 
