@@ -11,7 +11,7 @@ function serachInArr () {
       var base64image = canvas.toDataURL("image/png");
       img1 = base64image.replace('data:image/png;base64,','');
       // Open the image in a new window
-      window.open(base64image,'_blank');
+      //window.open(base64image,'_blank');
       if (img1 == captchaAnswer){
         document.querySelector("#visualCaptcha-img-0").click();
       }
@@ -21,7 +21,7 @@ function serachInArr () {
       var base64image = canvas.toDataURL("image/png");
       img2 = base64image.replace('data:image/png;base64,','');
       // Open the image in a new window
-      window.open(base64image,'_blank');
+      //window.open(base64image,'_blank');
       if (img2 == captchaAnswer){
         document.querySelector("#visualCaptcha-img-1").click();
       }
@@ -31,7 +31,7 @@ function serachInArr () {
       var base64image = canvas.toDataURL("image/png");
       img3 = base64image.replace('data:image/png;base64,','');
       // Open the image in a new window
-      window.open(base64image,'_blank');
+      //window.open(base64image,'_blank');
       if (img3 == captchaAnswer){
         document.querySelector("#visualCaptcha-img-2").click();
       }
@@ -41,7 +41,7 @@ function serachInArr () {
       var base64image = canvas.toDataURL("image/png");
       img4 = base64image.replace('data:image/png;base64,','');
       // Open the image in a new window
-      window.open(base64image,'_blank');
+      //window.open(base64image,'_blank');
       if (img4 == captchaAnswer){
         document.querySelector("#visualCaptcha-img-3").click();
       }
@@ -51,7 +51,7 @@ function serachInArr () {
       var base64image = canvas.toDataURL("image/png");
       img5 = base64image.replace('data:image/png;base64,','');
       // Open the image in a new window
-      window.open(base64image,'_blank');
+      //window.open(base64image,'_blank');
       if (img5 == captchaAnswer){
         document.querySelector("#visualCaptcha-img-4").click();
       }
