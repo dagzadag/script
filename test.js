@@ -5,4 +5,10 @@ html2canvas(element).then(function(canvas) {
 	// Export the canvas to its data URI representation
 	base64image = canvas.toDataURL("image/png");
 	// Open the image in a new window
+	captchaArr.indexOf(base64image);
+	if (captchaArr.indexOf(base64image)<0){
+	captchaArr.push(base64image);
+	}else{
+	console.log('found');
+	}
 });
